@@ -1,0 +1,57 @@
+:root{
+    --font-base: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box-1 img{
+    width: 60px;
+}
+.box-1 span{
+    font-size: 30px;
+    color: #A00230;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    bottom: 20px;
+}
+#nav-font{
+    font-family: var(--font-base);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+    
+}
+.box-2{
+    display: flex;
+    gap: 20px;
+}
+header{
+    height: 80vh;
+    min-height: 600px;
+    background-image: url(assets/background-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    margin: 0%;
+}
+.banner h1{
+    padding: 4%;
+    font-size: vmax;
+    font-family: im;
+}
+.banner h1 span{
+    color: #A00230;
+}
+#subtitulo{
+    position: relative;
+    top: 80px;
+    padding-left: 45px;
+    color: #A00230;
+}
+.banner button{
+    padding: 20px;
+    position: relative;
+    left: 39px;
+    bottom: 80px;
+}
